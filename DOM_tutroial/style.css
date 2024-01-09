@@ -1,0 +1,157 @@
+* body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+header h2{
+    text-align: left;
+    padding: 0 15px;
+}
+#container {
+    width: 90%;
+    margin: 5px auto;
+    padding: 20px 0;
+}
+.all-h2 {
+    color: bisque;
+}
+#container .banner-create {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+#container .banner-create .profile .profile-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container .banner-create .profile .profile-item h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: bisque;
+}
+#container .banner-create .profile .profile-item img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .banner-create .box {
+    width: 50%;
+    margin: 10px 10px;
+}
+#container .banner-create .profile {
+    display: flex;
+    justify-content: space-between;
+}
+#container .banner-create-story {
+    display: flex;
+    height: 250px;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container .banner-create-story h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+#container .banner-create-story span {
+    font-size: small; 
+}
+#container .banner-create-story input {
+    margin: 10px auto;
+}
+#container .banner-create-story .judul {
+    width: 90%;
+    height: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: solid 1px black;
+    border-radius: 5px;
+}
+#container .banner-create-story .story {
+    width: 90%;
+    height: 50px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: solid 1px black;
+    border-radius: 5px;
+}
+#container .banner-create-story input::placeholder {
+    font-size: small;
+    color:yellowgreen
+}
+#container .banner-create-story button {
+    width: 100px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+#container .banner-create-story button:hover {
+    background-color: bisque;
+    transition: 300ms;
+    cursor: pointer;
+}
+/* css item list
+
+*/
+#container #list-dokument {
+    border-top: 2px solid black;
+    padding-top: 20px;
+}
+#container #list-dokument .delete-all-story {
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+#container #list-dokument .delete-all-story a {
+    padding: 5px 15px;
+    font-size: medium;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+#container #list-dokument .delete-all-story a:hover {
+    color: black;
+    transition: 300ms;
+}
+#container #list-dokument #content-list {
+    padding: 10px 15px;
+}
+#container #list-dokument #content-list .item-list {
+    border: 1px solid bisque;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#container #list-dokument #content-list .item-list .row {
+    display: flex;
+}
+#container #list-dokument #content-list .item-list span {
+    font-size: small;
+    color: burlywood;
+}
+#container #list-dokument #content-list .item-list h2 {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+#container #list-dokument #content-list .item-list p {
+    font-size: 13px;
+    padding-left: 15px;
+}
+#container #list-dokument #content-list .item-list a {
+    font-size: 12px;
+    color: red;
+    padding-left: 16px;
+    text-decoration: none;
+    font-style: italic;
+}

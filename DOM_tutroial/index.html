@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model </title>
+    <link rel="stylesheet" href="/DOM_tutroial/style.css">
+</head>
+<body>
+    <header>
+        <h2>My Story In Japan</h2>
+    </header>
+    <div id="container">
+        <div class="banner-create">
+            <div class="profile box">
+                <div class="profile-item">
+                    <h2 class="all-h2">My Profile's</h2>
+                    <img src="/DOM_tutroial/ing/cart.png" alt="">
+                </div>
+            </div>
+            <div class="banner-create-story box">
+
+                <!-- buat eventlistener dari sini -->
+                <form action=""  id="create-story">
+                    <h2 class="all-h2">Create Story</h2>
+                    <span>Title</span>
+                    <input id="input-title" class="judul" type="text" placeholder="Enter your's title story"/>
+                    <span>Story</span>
+                    <input id="input-story" class="story" type="text" placeholder="Enter your's story to day..."/>
+                    <button type="submit">Create</button>
+                </form>
+            </div>
+        </div>
+        <div id="list-dokument">
+            <div>
+                <h1>Created list story</h1>
+                <div id="delete-all-story" class="delete-all-story">
+                    <a href="#"><span>[+] </span>Delete all story</a>
+                </div>
+            </div>
+            <div id="content-list">
+                <!-- css masuk di content list -->
+                <!-- <div class="item-list">
+                    <h2 class="all-h2 row">judul hard code</h2>
+                    <span id="date-post" class="date-post row"></span>
+                    <p class="row">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, culpa? Excepturi laborum est ullam, commodi explicabo dolores necessitatibus sed similique sunt voluptatum id dolore iusto. Doloribus impedit aliquid tenetur facere!</p>
+                    <a href="#">Comment</a>
+                    <a href="#" class="delete-post-story">Delete</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="sosmed-list">
+            <h2 class="all-h2">Contact me on!</h2>
+            <ul>
+                <li class="sosmed">Instagram</li>
+                <li class="sosmed">Github</li>
+                <li class="sosmed">Youtube</li>
+                <li class="sosmed">Facebook</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/DOM_tutroial/apps.js"></script>
+</body>
+</html>

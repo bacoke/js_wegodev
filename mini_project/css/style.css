@@ -1,0 +1,202 @@
+* body {
+    background-color: antiquewhite;
+    display: block;
+}
+#header-post h1{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+#container {
+    width: 90%;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-family: sans-serif;
+}
+#container #info {
+    font-family: monospace;
+    font-size: large;
+}
+#container #todo-form {
+    padding: 5px;
+    margin: 5px;
+}
+#container li {
+    list-style: none;
+}
+#container input {
+    margin: 10px;
+    width: 90%;
+    height: 30px;
+}
+#container #todo-input {
+    border-radius: solid aqua 3px;
+    padding: 0px 15px;
+}
+#container #todo-button {
+    font-weight: bold;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 15%;
+}
+#container #todo-button:hover {
+    background-color:antiquewhite;
+    cursor: pointer;
+}
+#todo-input::placeholder {
+    font-size: small;
+    font-style: italic;
+}
+#container #content-area {
+    width: 90%;
+    height: auto;
+    background-color: aqua;
+    margin: 5px auto;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+#container #content-area span {
+    font-family: monospace;
+    background-color: antiquewhite;
+    font-size: small;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+#container #content-area #filter-input {
+    padding: 0px 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+#container #content-area #filter-input::placeholder {
+    font-style: italic;
+    padding-left: 4px;          
+}
+#container #content-area #content-list {
+    width: 100%;
+}
+.list-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: monospace;
+    font-size: medium;
+    border: solid antiquewhite 2px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 95%;
+    text-align: center;
+}
+
+.list-form .delete-list {
+    color: red;
+    padding: 5px 15px;
+    margin: 5px 10px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: small;
+}
+.list-form .delete-list:hover {
+    cursor: pointer;
+    background-color: red;
+    color: aliceblue;
+}
+.list-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px auto;
+    margin: 10px auto;
+}
+#container #clear-list {
+    position: relative;
+}
+
+#container #clear-list .clear-list-button {
+    width: 15%;
+    background-color: red;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#container #clear-list .clear-list-button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* Deskripsi */
+
+#deskripsi {
+    width: 90%;
+    margin: 5px auto;
+    padding: 0px 15px;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: space-around;
+}
+#deskripsi #social-media {
+    display: block;
+}
+#deskripsi #social-media ul {
+    float: left;
+}
+#deskripsi #social-media ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+#deskripsi #social-media ul li a {
+    text-decoration: none;
+    color: black;
+}
+#deskripsi #social-media ul li a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+footer {
+    padding-top: 20px;
+}
+
+footer #footer {
+    display: flex;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    padding: 5px auto;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #footer p {
+    font-family: Helvetica;
+    font-size: small;
+    padding-right: 10px;
+}
+
+footer #footer span {
+    font-size: small;
+    font-style: italic;
+    padding: 5px auto;
+    text-align: center;
+}
+
+footer #footer span a {
+    font-family: monospace;
+    text-decoration: none;
+    color: red;
+}

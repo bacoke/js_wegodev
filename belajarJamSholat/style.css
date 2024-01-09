@@ -1,0 +1,63 @@
+* body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: aliceblue;
+    font-family: Courier New;
+}
+
+#container header {
+    padding: 10px;
+    background-color: antiquewhite;
+    font-size: large;
+    text-align: center;
+    
+}
+#container header h2 {
+    padding: 10px auto;
+    font-family: monospace;
+    font-weight: bold;
+}
+#container #content {
+    display: flex;
+    justify-content: space-between;
+}
+#container #content #note { 
+    padding: 10px 5px;
+    width: 50%;
+    z-index: 0;
+}
+#container #content #app-table {
+    padding: 10px 15px;
+    width: 50%;
+}
+#container #content #app-table table {
+    width: 100%;
+    padding: 5px 15px;
+}
+#container #content #app-table table tbody tr {
+    border: 2px solid bisque;
+}
+#container #content #app-table table tbody tr td {
+    padding: 10px 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+footer p {
+    color: black;
+    font-family: monospace;
+    font-size: small;
+}
+footer span {
+    font-style: italic;
+}
+footer a {
+    color: red;
+}
